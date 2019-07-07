@@ -1,7 +1,7 @@
 def square_array(array)
   square = []
   array.each do |i|
-    square << Math.sqrt(i)
+    square << i*i
   end
   return square
 end
